@@ -2,22 +2,37 @@
 
 **Institution:** RISA Institution of Applied Sciences  
 **Discipline:** Computer Science  
-**Document type:** Undergraduate curriculum concept overview  
+**Document type:** Undergraduate curriculum concept overview and proposed teaching sequence  
 **Status:** Draft — for academic review; not an approved programme or syllabus  
-**Source:** Five handwritten notebook pages provided on 20 November 2026  
-**Editorial note:** Transcribed, reorganized and lightly copy-edited for clarity. No module codes, credits, prerequisites or assessments were specified in the original notes.
+**Sources:** Five handwritten notebook pages provided on 20 November 2026; subsequent contributor-defined module codes and teaching order  
+**Editorial note:** Original topical coverage is retained and reorganized according to the contributor's eight-module sequence. Module credits, prerequisites, assessments, and detailed outcomes were not provided.
 
 ## Curriculum philosophy
 
 A bachelor's degree is not intended to create an expert in every area of computing. Instead, it should expose students to the **core foundations of computing** and then allow for **specialization**.
 
-The following nine areas are proposed as foundational areas an undergraduate should cover.
+The source notes identify nine foundational subject areas. The contributor's revised teaching sequence organizes them into **eight modules**, combining Computer Architecture with Data Representation.
 
-## 1. Computer Architecture
+## Proposed teaching order
 
-**What is it?** The study of how computers work.
+| Teaching order | Code | Module title |
+| --- | --- | --- |
+| 1 | CS101 | Computer Architecture & Data Representation |
+| 2 | CS102 | Programming Fundamentals |
+| 3 | CS201 | Data Structures & Algorithms |
+| 4 | CS202 | Networking |
+| 5 | CS221 | Database |
+| 6 | CS222 | Operating Systems |
+| 7 | CS301 | Software Engineering |
+| 8 | CS302 | Artificial Intelligence |
 
-**Topics**
+**Note:** The sequence above is the requested teaching order. Course codes alone do not establish semester placement, prerequisite rules or academic credits.
+
+## 1. CS101 — Computer Architecture & Data Representation
+
+**Computer Architecture:** The study of how computers work.
+
+**Computer Architecture topics**
 - Central processing unit (CPU)
 - Caches
 - Memory
@@ -26,11 +41,9 @@ The following nine areas are proposed as foundational areas an undergraduate sho
 
 **Key understanding:** Students should understand what happens when a program runs.
 
-## 2. Data Representation
+**Data Representation:** How computers store information.
 
-**What is it?** How computers store information.
-
-**Topics**
+**Data Representation topics**
 - Binary
 - Hexadecimal
 - ASCII
@@ -41,18 +54,32 @@ The following nine areas are proposed as foundational areas an undergraduate sho
 
 **Key understanding:** Computers represent and process information using bits.
 
-## 3. Operating Systems
+## 2. CS102 — Programming Fundamentals
 
-**What is it?** Software that manages hardware and applications.
+**Focus:** Foundational study of programming.
 
-**Topics**
-- Processes
-- Threads
-- CPU scheduling
-- Memory management
-- File systems
+**Topics identified in the original Programming Languages area**
+- Syntax
+- Semantics
+- Compilation
+- Interpretation
 
-## 4. Networking
+**Syllabus development note:** The contributor has renamed this area **Programming Fundamentals**. Foundational hands-on programming topics and practical activities have not yet been specified; they should be defined during module development rather than assumed to have been present in the handwritten source.
+
+## 3. CS201 — Data Structures & Algorithms
+
+**Algorithms:** Methods for solving problems effectively.
+
+**Algorithms topics from the original notes**
+- Searching
+- Sorting
+- Graph algorithms
+- Dynamic programming
+- Complexity analysis
+
+**Syllabus development note:** **Data Structures** is explicitly included in the contributor's revised module title, but individual data-structure topics were not itemized in the original handwritten overview. They require further definition.
+
+## 4. CS202 — Networking
 
 **What is it?** How computers communicate.
 
@@ -63,34 +90,7 @@ The following nine areas are proposed as foundational areas an undergraduate sho
 - Hypertext Transfer Protocol (HTTP)
 - Wireless networks
 
-## 5. Algorithms
-
-**What is it?** Methods for solving problems effectively.
-
-**Topics**
-- Searching
-- Sorting
-- Graph algorithms
-- Dynamic programming
-- Complexity analysis
-
-## 6. Programming Languages
-
-**What is it?** The study of programming itself.
-
-**Topics**
-- Syntax
-- Semantics
-- Compilation
-- Interpretation
-
-## 7. Software Engineering
-
-**What is it?** The discipline of building large software systems.
-
-**Topics:** The handwritten overview did not specify individual topics for this area; the syllabus requires further development.
-
-## 8. Databases
+## 5. CS221 — Database
 
 **What is it?** The study of storing and retrieving data.
 
@@ -101,7 +101,24 @@ The following nine areas are proposed as foundational areas an undergraduate sho
 - Transactions
 - Indexing
 
-## 9. Artificial Intelligence
+## 6. CS222 — Operating Systems
+
+**What is it?** Software that manages hardware and applications.
+
+**Topics**
+- Processes
+- Threads
+- CPU scheduling
+- Memory management
+- File systems
+
+## 7. CS301 — Software Engineering
+
+**What is it?** The discipline of building large software systems.
+
+**Topics:** The original handwritten overview did not specify individual topics for this area; the syllabus requires further development.
+
+## 8. CS302 — Artificial Intelligence
 
 **What is it?** Creating systems that perform intelligent tasks.
 
@@ -120,8 +137,8 @@ The handwritten notes identify two recurring elements to be included alongside t
 
 ## Further curriculum development required
 
-This is a **concept overview**, not yet a full programme specification. Before institutional approval, the curriculum team should define the module structure, learning outcomes, sequence and prerequisites, practical activities, contact hours or credits, and assessment strategy. These details are **not specified in the source notes** and should be developed and reviewed separately.
+This is a **concept overview and proposed teaching order**, not yet a full programme specification. Before institutional approval, the curriculum team should define learning outcomes, module credits and contact time, prerequisite rules, module-level activities, practical programming and data-structure topics, and assessment strategies. These details are **not specified in the source notes or in the revised teaching order** and should be developed and reviewed separately.
 
 ---
 
-*Prepared as a readable draft from the contributor's handwritten concept overview for RISA curriculum development and change tracking.*
+*Prepared from the contributor's handwritten concept overview and subsequent eight-module teaching-order revision for RISA curriculum development and change tracking.*
