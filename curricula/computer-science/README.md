@@ -7,6 +7,7 @@ This directory contains curriculum planning material for Computer Science at **R
 ## Documents
 
 - [General Computer Science — Concept Overview](general-computer-science-concept-overview.md) — proposed eight-module teaching sequence with topics from the original nine foundational areas, and mathematics and practical projects as cross-cutting elements.
+- [CS101 — Learning Outcomes](modules/CS101/learning-outcomes.md) — proposed first-year learning outcomes, section mapping and suggested practical learning activities for Computer Architecture & Data Representation.
 
 ## Proposed module teaching order
 
@@ -23,6 +24,6 @@ This directory contains curriculum planning material for Computer Science at **R
 
 ## Review status
 
-The sequence is a **contributor-proposed teaching order**, not an approved programme structure or detailed module syllabus. Module-level credits, prerequisites, learning outcomes, practical requirements and assessments still require development and academic review.
+The sequence is a **contributor-proposed teaching order**, not an approved programme structure. The CS101 learning outcomes are also **draft proposals**, pending academic review. Module-level credits, prerequisites, complete learning outcomes for the remaining modules, practical requirements and assessments still require development.
 
 For repository-wide contribution and approval practices, see the [main Curricular README](../../README.md).
