@@ -10,6 +10,11 @@ This repository is the central workspace for **building, refining, reviewing, an
 
 It is a **living curriculum development repository**, not simply a collection of finalized course materials. Proposals and revisions should remain traceable so contributors can understand what changed, why it changed, and how the change affects teaching and learning.
 
+## Available curriculum drafts
+
+- [Computer Science](curricula/computer-science/README.md) — eight proposed foundation modules and learning outcomes.
+- [Cloud & DevOps](curricula/Cloud%20%26%20DevOps/README.md) — five-module Applied DevOps Engineering programme (BIH source v1.2; pending institutional approval).
+
 ## What belongs here
 
 - **Curriculum design:** programme structures, module lists, prerequisites, learning pathways, and progression.
