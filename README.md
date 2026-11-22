@@ -14,6 +14,7 @@ It is a **living curriculum development repository**, not simply a collection of
 
 - [Computer Science](curricula/computer-science/README.md) — eight proposed foundation modules and learning outcomes.
 - [Cloud & DevOps](curricula/Cloud%20%26%20DevOps/README.md) — five-module Applied DevOps Engineering programme (BIH source v1.2; pending institutional approval).
+- [Ethical Hacking (COMS)](curricula/ethical-hacking/README.md) — five proposed modules (COMS101–COMS105), including **COMS102 — Linux Basics for Cybersecurity**; draft pending academic and safety review.
 
 ## What belongs here
 
@@ -45,6 +46,7 @@ Curricular/
 │   ├── mathematics/
 │   ├── physics/
 │   ├── computer-science/
+│   ├── ethical-hacking/
 │   └── engineering/
 ├── templates/
 └── change-log/
