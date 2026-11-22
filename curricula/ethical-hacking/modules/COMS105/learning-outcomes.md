@@ -7,7 +7,7 @@
 **Level:** Introductory / progressive sequence (formal level to be decided)  
 **Document:** Proposed learning outcomes, syllabus and assessment activities  
 **Status:** Draft — pending academic, technical, legal and safety review  
-**Version:** 0.1  
+**Version:** 0.2 (practical learning-outcomes revision)  
 **Date:** 22 November 2026
 
 ## 1. Module purpose
@@ -20,42 +20,49 @@ COMS101–COMS104 recommended; basic HTTP, client–server architecture and web 
 
 *Recommendations only; formal prerequisites and equivalency pathways require academic approval.*
 
-## 3. Proposed measurable learning outcomes
+## 3. Practical, assessable learning outcomes
 
-Upon successful completion, learners should be able to:
+Upon successful completion of COMS105, a learner should be able to **independently demonstrate** the following in an expressly authorized, resettable environment. Each outcome has a tangible assessment artifact.
 
-| Code | Learning outcome |
-| --- | --- |
-| **LO1** | Describe HTTP/HTTPS requests, responses, cookies, sessions and common web architecture components. |
-| **LO2** | Explain web authentication, authorization, input-handling and browser/server trust boundaries. |
-| **LO3** | Define authorized target scope, permitted methods, test accounts and safe data-handling procedures. |
-| **LO4** | Recognize common web weaknesses, including injection, cross-site scripting, access-control flaws, insecure configuration and session weaknesses, from controlled examples. |
-| **LO5** | Use approved lab observations and non-destructive checks to validate instructor-defined vulnerabilities in a deliberately vulnerable application. |
-| **LO6** | Identify root causes and recommend secure coding, validation, access-control and configuration changes. |
-| **LO7** | Compare before/after results to show that a fix is effective in the training application. |
-| **LO8** | Produce a concise web security assessment report with evidence, severity rationale, limitations and remediation verification. |
+| Code | Practical learning outcome | Minimum observable evidence |
+| --- | --- | --- |
+| **LO1** | Deploy or access an isolated, deliberately vulnerable training website with synthetic accounts, explicit scope and a verified reset path. | Web-lab readiness and authorized target checklist |
+| **LO2** | Capture and sanitize HTTP request/response evidence from a training session and map the application's login, cookie and session behavior. | Annotated HTTP/session flow diagram and redacted traces |
+| **LO3** | Reproduce one instructor-defined authentication, authorization or input-handling weakness using non-destructive checks and synthetic data. | Minimal, scope-bound observation and expected/actual results |
+| **LO4** | Review the approved application's example source code or configuration to identify and explain the cause of the seeded weakness. | Root-cause note referencing the affected file or setting |
+| **LO5** | Implement an authorized defensive change, such as a server-side access check, safe input handling or configuration correction, in the training application. | Code/configuration change and reasoned fix description |
+| **LO6** | Create and run repeatable positive and negative tests that verify intended secure behavior and guard against regressions. | Automated or scripted regression-test results |
+| **LO7** | Compare observed behavior before and after the fix, confirming effectiveness and documenting remaining limitations. | Sanitized before/after verification record |
+| **LO8** | Submit a web application security report with scope, reproducible evidence, justified risk, remediation and retest results. | Complete technical and executive findings report |
+
+**Outcome standard:** Assess what the learner can perform, verify and justify—not only what they can define or recall. Passing a setup-readiness check is necessary before lab access but is not proof of module competence.
 
 ## 4. Teaching-section alignment
 
-| Section | Core content | Outcomes |
+| Section | Practical teaching emphasis | Outcomes |
 | --- | --- | --- |
-| **A — Web Technology Foundations** | HTTP/HTTPS, requests, responses, cookies, sessions and web architecture | LO1–LO2 |
-| **B — Responsible Web Testing** | Written authorization, fixtures, isolated target, safe test inputs and evidence hygiene | LO3 |
-| **C — Vulnerability Understanding** | Common weakness classes and their defensive causes using training cases | LO4–LO5 |
-| **D — Secure Remediation** | Input handling, contextual output encoding, parameterization, access checks and hardening | LO6–LO7 |
-| **E — Verification and Reporting** | Retesting, reproducible evidence, prioritization and communication | LO7–LO8 |
+| **A — Web Lab and HTTP Essentials** | Authorized application setup, requests, cookies and sessions | LO1, LO2 |
+| **B — Scope and Controlled Testing** | Synthetic accounts, non-destructive tests, narrowly defined seeded weaknesses | LO1, LO3 |
+| **C — Secure Code Investigation** | Source/config review, root cause and safe remediation | LO4, LO5 |
+| **D — Regression Testing** | Positive and negative tests and before/after observations | LO6, LO7 |
+| **E — Evidence and Report** | Risk rationale, redaction, limitations and stakeholder reporting | LO7, LO8 |
 
-The teaching sections, learning outcomes and sequencing are **new syllabus proposals**, not a verbatim transcription of the handwritten list.
+The learning outcomes, teaching sections, laboratory activities and assessment evidence are **proposals** developed from the module topics; they are not a verbatim transcription of the handwritten source.
 
 ## 5. Proposed practical learning and assessment
 
-| Activity | Learning task / evidence | Outcomes |
-| --- | --- | --- |
-| **HTTP and session observation** | Inspect instructor-provided HTTP traces and identify security-relevant headers and session behavior | LO1–LO2 |
-| **Training-app security review** | Use a deliberately vulnerable local web app to document a bounded, preapproved weakness without real data | LO3–LO5 |
-| **Remediation validation** | Compare training-app behavior before and after an instructor-provided security fix | LO6–LO8 |
+Practical activities should involve hands-on demonstration and repeatable observation, accompanied by brief explanations of the findings.
 
-Each lab requires a written scope and authorized target list, readiness verification, instructor-tested fixtures, a recovery/reset procedure, sanitized evidence, and a rubric. Activities are proposals until lab scripts, guides, model results and marking criteria are reviewed and piloted.
+| Activity | Student task and required evidence | Outcomes |
+| --- | --- | --- |
+| **Lab 1 — Controlled HTTP tracing** | Verify safe local web-app setup and annotate redacted request/session flows | LO1, LO2 |
+| **Lab 2 — Seeded issue investigation** | Confirm a preapproved training weakness using synthetic data and locate its root cause | LO3, LO4 |
+| **Lab 3 — Fix and test** | Apply a defensive coding/configuration change and run security regression cases | LO5, LO6 |
+| **Lab 4 — Retest and report** | Produce evidence of before/after behavior and a reproducible findings report | LO7, LO8 |
+
+**Integrated practical exit task (proposal):** Assess an instructor-owned deliberately vulnerable application, document one instructor-seeded weakness, implement an authorized defensive change, demonstrate passing security regression tests, and present an evidence-based report.
+
+**Lab gate:** Written authorization, a limited target list, safe readiness check, instructor-tested fixtures, a recovery/reset path, redacted evidence and a marking rubric are mandatory. These lab briefs remain **unpiloted proposals** until the learning environment, student instructions, reference results and marking instruments are developed and verified.
 
 ## 6. Teaching and safety boundaries
 
@@ -63,18 +70,20 @@ Do not test public or production websites, scrape private accounts, harvest sess
 
 Learners must seek written authorization **before** any security test, preserve privacy, refrain from testing systems outside scope and follow the instructor's stop-and-escalate procedure. Any unsafe or unapproved activity is outside this curriculum.
 
-## 7. Proposed assessment evidence
+## 7. Practical-first assessment evidence (proposed)
 
-- **Knowledge checkpoint:** Explain key concepts and ethical scope constraints for the module.
-- **Setup readiness (Pass/Retry):** Verify isolation, target authorization, basic tools and rollback method before practical tasks.
-- **Practical task(s):** Submit independently explainable, sanitized outputs, observations and remediation/retest evidence.
-- **Final module assessment:** Analyze a permitted case, justify findings and communicate security improvements with limitations.
+- **Setup and authorization — prerequisite gate (Pass/Retry):** Independently verify that the student is operating within an approved isolated fixture and can restore the environment. This readiness check is **not** a graded learning outcome by itself.
+- **Hands-on laboratory portfolio:** Assessor checks actual configuration, captured safe observations, negative/positive test cases, commands or code, and explanations linked to the LO evidence column above.
+- **Integrated practical exit task:** In an unseen but equivalent instructor-owned fixture, independently complete the bounded task, investigate a seeded issue, demonstrate a defensible improvement, retest and document limitations.
+- **Short knowledge checkpoint and technical explanation:** Explain why results matter and justify safety, controls, analysis and corrective action; a written definition alone cannot substitute for verified lab competence.
 
-**Unresolved decisions:** contact/notional hours, formal academic level, credit value, prerequisite enforcement, assessment weighting, pass criteria, appeals/moderation, exact lab toolchain, equipment needs and academic approval.
+**Practical orientation:** A **provisional** teaching-time target is 70% supervised practical work, 20% theory/demonstration and 10% review/reporting. This is **not** an approved mark distribution, credit allocation or pass standard. Assessment weighting and moderation must be academically approved.
+
+**Unresolved decisions:** notional/contact hours, formal academic level, credit value, prerequisite enforcement, mark weighting, pass criteria, appeals/moderation, exact lab toolchain, learner hardware, academic approval, and final safety-gate policy.
 
 ## 8. Provenance and review status
 
-**Source:** Handwritten *Ethical Hacking (COMS)* outline supplied 22 November 2026, giving module COMS105 and its topic. All detailed learning outcomes, sections, laboratories, assessment evidence and safety controls above are proposed curriculum developments and must not be portrayed as already approved or delivered.
+**Source:** Handwritten *Ethical Hacking (COMS)* outline supplied 22 November 2026, giving module COMS105 and its topic. Detailed outcomes were refactored on 22 November 2026 to emphasize independently assessable practical competence; all outcomes, sections, laboratories, assessment evidence and safety controls remain proposed curriculum developments and must not be portrayed as already approved or delivered.
 
 ---
 
