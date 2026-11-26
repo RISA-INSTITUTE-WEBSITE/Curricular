@@ -7,7 +7,7 @@
 **Level:** Introductory / progressive sequence (formal level to be decided)  
 **Document:** Proposed learning outcomes, syllabus and assessment activities  
 **Status:** Draft — pending academic, technical, legal and safety review  
-**Version:** 0.1  
+**Version:** 0.2 (practical learning-outcomes revision)  
 **Date:** 22 November 2026
 
 ## 1. Module purpose
@@ -20,43 +20,49 @@ COMS101 recommended; demonstrate basic computer literacy before operating a Linu
 
 *Recommendations only; formal prerequisites and equivalency pathways require academic approval.*
 
-## 3. Proposed measurable learning outcomes
+## 3. Practical, assessable learning outcomes
 
-Upon successful completion, learners should be able to:
+Upon successful completion of COMS102, a learner should be able to **independently demonstrate** the following in an expressly authorized, resettable environment. Each outcome has a tangible assessment artifact.
 
-| Code | Learning outcome |
-| --- | --- |
-| **LO1** | Explain the Linux operating system, shell, filesystem hierarchy and common administrative roles. |
-| **LO2** | Navigate, create, inspect and manage files and directories safely using terminal commands. |
-| **LO3** | Interpret Linux permissions, ownership, users, groups and the principle of least privilege. |
-| **LO4** | Inspect running processes, services and resource use without destabilizing a host. |
-| **LO5** | Identify basic network interfaces, addressing, listening sockets and DNS behavior on an approved Linux host. |
-| **LO6** | Read and interpret local logs and system status for elementary security triage. |
-| **LO7** | Use packages, updates and secure configuration practices in a disposable Linux lab. |
-| **LO8** | Document reproducible, bounded command-line investigations while sanitizing secrets and restoring the initial lab state. |
+| Code | Practical learning outcome | Minimum observable evidence |
+| --- | --- | --- |
+| **LO1** | Start and verify an approved Linux cybersecurity lab, record host identity and tooling, and demonstrate its recovery route. | System baseline and passed lab-readiness verification |
+| **LO2** | Use terminal commands to organize, search, inspect and safely transform files within a designated Linux workspace. | Reproducible command transcript and resulting files |
+| **LO3** | Create synthetic users and groups, assign file ownership and permissions, and verify expected permitted and denied access. | Permission matrix, commands and access-test results |
+| **LO4** | Inspect Linux processes, resource use and service status to diagnose an instructor-seeded service problem without disrupting other systems. | Diagnostic transcript and justified resolution |
+| **LO5** | Inspect network interfaces, addressing, routes, name resolution and listening sockets on an authorized Linux host. | Annotated local networking diagnostic report |
+| **LO6** | Filter and correlate local or supplied Linux log records to identify a predefined security-relevant event. | Sanitized log excerpts and timestamped incident note |
+| **LO7** | Verify package status, apply an approved security maintenance or hardening change in a disposable host, and validate or roll back the result. | Change record and before/after verification |
+| **LO8** | Write and run a read-only shell script that gathers non-sensitive host health indicators and produces a repeatable, clearly labeled output. | Runnable script, test runs and error-handling evidence |
+
+**Outcome standard:** Assess what the learner can perform, verify and justify—not only what they can define or recall. Passing a setup-readiness check is necessary before lab access but is not proof of module competence.
 
 ## 4. Teaching-section alignment
 
-| Section | Core content | Outcomes |
+| Section | Practical teaching emphasis | Outcomes |
 | --- | --- | --- |
-| **A — Linux Lab Setup and Fundamentals** | Linux distributions, VM/WSL alternatives, terminal, filesystems and safe reset | LO1–LO2 |
-| **B — Files, Permissions and Identity** | Navigation, paths, text utilities, access permissions, ownership, accounts and groups | LO2–LO3 |
-| **C — Processes and Services** | Process viewing, service status, basic system monitoring and logs | LO4, LO6 |
-| **D — Linux Networking for Security** | IP addressing, sockets, DNS, SSH client concepts and local diagnostics | LO5 |
-| **E — Host Hygiene and Evidence** | Packages, security updates, minimal privileges, system snapshots and report writing | LO6–LO8 |
+| **A — Setup and CLI** | Lab provisioning, restoration, Linux filesystem and command-line workflow | LO1, LO2 |
+| **B — Identity and Permissions** | Users, groups, ownership and least-privilege access tests | LO3 |
+| **C — Services and Incident Clues** | Processes, resource checks, service status and log investigation | LO4, LO6 |
+| **D — Host Networking** | Interfaces, routes, DNS and listening sockets on authorized hosts | LO5 |
+| **E — Security Maintenance and Bash** | Updates, safe hardening, rollback, read-only scripting and documentation | LO7, LO8 |
 
-The teaching sections, learning outcomes and sequencing are **new syllabus proposals**, not a verbatim transcription of the handwritten list.
+The learning outcomes, teaching sections, laboratory activities and assessment evidence are **proposals** developed from the module topics; they are not a verbatim transcription of the handwritten source.
 
 ## 5. Proposed practical learning and assessment
 
-| Activity | Learning task / evidence | Outcomes |
-| --- | --- | --- |
-| **Workstation readiness** | Start an approved Linux VM or managed host, verify user identity and record rollback method | LO1, LO8 |
-| **Permissions and identity** | Apply least-privilege file access to synthetic training data and explain resulting access | LO2–LO3 |
-| **Security triage** | Use local service, process, listening-port and log information to explain a preconfigured fault | LO4–LO6 |
-| **Maintenance and recovery** | Apply approved updates to a disposable fixture, collect evidence and restore snapshot | LO7–LO8 |
+Practical activities should involve hands-on demonstration and repeatable observation, accompanied by brief explanations of the findings.
 
-Each lab requires a written scope and authorized target list, readiness verification, instructor-tested fixtures, a recovery/reset procedure, sanitized evidence, and a rubric. Activities are proposals until lab scripts, guides, model results and marking criteria are reviewed and piloted.
+| Activity | Student task and required evidence | Outcomes |
+| --- | --- | --- |
+| **Lab 1 — Linux readiness** | Verify a resettable Linux environment and complete a terminal file-management exercise | LO1, LO2 |
+| **Lab 2 — Least privilege** | Configure synthetic users and permissions; test positive and negative access cases | LO3 |
+| **Lab 3 — Host triage** | Diagnose a preconfigured service fault using process, log and network observations | LO4, LO5, LO6 |
+| **Lab 4 — Maintain and automate** | Apply an authorized update/hardening change and write a safe status-reporting script | LO7, LO8 |
+
+**Integrated practical exit task (proposal):** Using an instructor-owned Linux fixture, investigate a seeded host problem, correct one configuration issue, run a safe repeatable health-check script, and submit sanitized, verifiable evidence.
+
+**Lab gate:** Written authorization, a limited target list, safe readiness check, instructor-tested fixtures, a recovery/reset path, redacted evidence and a marking rubric are mandatory. These lab briefs remain **unpiloted proposals** until the learning environment, student instructions, reference results and marking instruments are developed and verified.
 
 ## 6. Teaching and safety boundaries
 
@@ -64,18 +70,20 @@ Students must use their own or approved lab Linux host only. No credential harve
 
 Learners must seek written authorization **before** any security test, preserve privacy, refrain from testing systems outside scope and follow the instructor's stop-and-escalate procedure. Any unsafe or unapproved activity is outside this curriculum.
 
-## 7. Proposed assessment evidence
+## 7. Practical-first assessment evidence (proposed)
 
-- **Knowledge checkpoint:** Explain key concepts and ethical scope constraints for the module.
-- **Setup readiness (Pass/Retry):** Verify isolation, target authorization, basic tools and rollback method before practical tasks.
-- **Practical task(s):** Submit independently explainable, sanitized outputs, observations and remediation/retest evidence.
-- **Final module assessment:** Analyze a permitted case, justify findings and communicate security improvements with limitations.
+- **Setup and authorization — prerequisite gate (Pass/Retry):** Independently verify that the student is operating within an approved isolated fixture and can restore the environment. This readiness check is **not** a graded learning outcome by itself.
+- **Hands-on laboratory portfolio:** Assessor checks actual configuration, captured safe observations, negative/positive test cases, commands or code, and explanations linked to the LO evidence column above.
+- **Integrated practical exit task:** In an unseen but equivalent instructor-owned fixture, independently complete the bounded task, investigate a seeded issue, demonstrate a defensible improvement, retest and document limitations.
+- **Short knowledge checkpoint and technical explanation:** Explain why results matter and justify safety, controls, analysis and corrective action; a written definition alone cannot substitute for verified lab competence.
 
-**Unresolved decisions:** contact/notional hours, formal academic level, credit value, prerequisite enforcement, assessment weighting, pass criteria, appeals/moderation, exact lab toolchain, equipment needs and academic approval.
+**Practical orientation:** A **provisional** teaching-time target is 70% supervised practical work, 20% theory/demonstration and 10% review/reporting. This is **not** an approved mark distribution, credit allocation or pass standard. Assessment weighting and moderation must be academically approved.
+
+**Unresolved decisions:** notional/contact hours, formal academic level, credit value, prerequisite enforcement, mark weighting, pass criteria, appeals/moderation, exact lab toolchain, learner hardware, academic approval, and final safety-gate policy.
 
 ## 8. Provenance and review status
 
-**Source:** Handwritten *Ethical Hacking (COMS)* outline supplied 22 November 2026, giving module COMS102 and its topic. The user specifically requested the new title **Linux Basics for Cybersecurity**, replacing **Linux Basics**. All detailed learning outcomes, sections, laboratories, assessment evidence and safety controls above are proposed curriculum developments and must not be portrayed as already approved or delivered.
+**Source:** Handwritten *Ethical Hacking (COMS)* outline supplied 22 November 2026, giving module COMS102 and its topic. The user specifically requested the new title **Linux Basics for Cybersecurity**, replacing **Linux Basics**. Detailed outcomes were refactored on 22 November 2026 to emphasize independently assessable practical competence; all outcomes, sections, laboratories, assessment evidence and safety controls remain proposed curriculum developments and must not be portrayed as already approved or delivered.
 
 ---
 

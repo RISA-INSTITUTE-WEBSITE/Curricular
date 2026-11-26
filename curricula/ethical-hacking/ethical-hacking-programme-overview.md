@@ -3,7 +3,7 @@
 **Institution:** RISA Institution of Applied Sciences  
 **Source:** Handwritten "Ethical Hacking (COMS)" five-module list, supplied 22 November 2026  
 **Status:** Draft; pending academic, legal, technical and safety review  
-**Version:** 0.1 · **Date:** 22 November 2026
+**Version:** 0.2 (practical learning outcomes) · **Date:** 22 November 2026
 
 ## 1. Purpose
 
@@ -21,22 +21,24 @@ Build ethical, defensible cybersecurity testing capabilities, beginning with cyb
 
 The handwritten source established five codes and original topics, and the user revised the COMS102 title to **Linux Basics for Cybersecurity**. All suggested prerequisites and curriculum detail above are **proposals**; they are not formal academic requirements.
 
-## 3. Programme learning outcomes (proposed)
+## 3. Programme learning outcomes — demonstrated competence (proposed)
 
-Learners completing the track should be able to:
+By completing the five-module pathway, learners should be able to **demonstrate and defend** these competencies in isolated, written-authorized training environments:
 
-1. Explain cybersecurity threats, risks, legal authorization, professional responsibility and core protection principles.
-2. Prepare and operate a recoverable Linux-based security laboratory safely.
-3. Interpret network behavior and assess network exposure within a written test scope.
-4. Validate host authentication, authorization and configuration weaknesses only against controlled learning targets.
-5. Assess common web-application weaknesses in intentionally vulnerable training applications.
-6. Capture reproducible, minimal, properly sanitized technical evidence.
-7. Explain business impact and prioritize defensible remediation.
-8. Re-test fixes, document limitations and communicate findings to technical and nontechnical stakeholders.
+1. **Authorize and prepare:** Verify an approved test scope, configure a recoverable lab and observe explicit stop conditions.
+2. **Investigate and prioritize:** Inventory training assets, collect relevant evidence and assess practical risk against defined criteria.
+3. **Operate and secure Linux:** Configure accounts and permissions, diagnose host problems and apply a verified defensive change.
+4. **Assess a bounded network:** Document approved lab hosts and services, analyze traffic, validate network controls and verify a correction.
+5. **Validate host access controls:** Reproduce a predesignated weakness only with synthetic identities, preserve minimal evidence, repair it and demonstrate intended access.
+6. **Assess and repair a training web app:** Identify a seeded web vulnerability, inspect its root cause, implement a defensive change and run regression checks.
+7. **Produce audit-ready evidence:** Record configurations, observed results, negative/positive checks, recovery and clear limitations without exposing secrets.
+8. **Report and defend findings:** Explain technical and stakeholder impact, justify remediation and demonstrate a repeatable retest.
 
-## 4. Teaching method and laboratory delivery
+The module-level [learning-outcomes files](README.md#module-register-source-order) contain **eight individually assessable outcomes and mapped evidence per module**, for 40 proposed outcomes overall. These are newly developed draft proposals, not source-provided requirements or formally approved qualifications.
 
-**Prepare → Verify → Demonstrate → Practise → Assess → Restore.** Setup-readiness checks should be Pass/Retry, separate from marks. A sample teaching environment may use a local Linux VM, institution-managed lab or an approved remote sandbox with resettable exercises and documented test scopes.
+## 4. Practical-first teaching method and laboratory delivery
+
+**Prepare → Verify → Demonstrate → Practise → Diagnose → Assess → Restore.** Setup-readiness checks should be Pass/Retry, separate from marks. A sample teaching environment may use a local Linux VM, institution-managed lab or an approved remote sandbox with resettable exercises and documented test scopes.
 
 All practical exercises require:
 
@@ -46,15 +48,25 @@ All practical exercises require:
 - Evidence hygiene (no passwords, tokens, personal data or unnecessary screenshots).
 - At least one defensive interpretation, report, remediation or retest exercise.
 
+### Proposed teaching-time balance (not approved)
+
+| Activity | Suggested share |
+| --- | ---: |
+| Supervised independent labs and practical projects | **70%** |
+| Focused theory and instructor demonstrations | **20%** |
+| Technical review, reporting and feedback | **10%** |
+
+This is a **teaching-time design target**, not an assessment weighting, allocated credit, academic level or approved delivery requirement. Theory remains essential where needed to support safe, reasoned practical work.
+
 ## 5. Proposed assessment framework (not approved)
 
 | Assessment type | Proposed evidence |
 | --- | --- |
 | Foundational knowledge checkpoints | Terminology, principles, ethics, risk interpretation and protocol concepts |
 | Laboratory readiness | Safe environment startup, written authorization and target verification (Pass/Retry) |
-| Supervised practical labs | Tool outputs with scope notes, method, findings and recovery evidence |
+| Supervised practical labs | Reproducible lab state, executed safe tests, outputs with scope notes, explanation, findings and recovery evidence |
 | Technical reporting | Severity rationale, limitations, defensible remediations and executive summary |
-| Final integrated assessment | Authorized lab assessment spanning network/host/web findings, mitigation and retesting |
+| Final integrated assessment | Independently complete an authorized, resettable lab assessment with observable results, defensive changes, retesting and evidence-based reporting |
 
 **Safety gates:** Any attempt to test out-of-scope systems, mishandle secrets or bypass lab safety controls requires instructor intervention under an approved conduct and assessment policy. A numerical pass mark, assessment weights, moderation processes and academic appeal procedures must be approved before use.
 

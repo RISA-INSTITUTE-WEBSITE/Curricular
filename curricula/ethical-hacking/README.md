@@ -4,7 +4,7 @@
 **Curriculum track:** Ethical Hacking (COMS)  
 **Document type:** Programme register and curriculum-development index  
 **Status:** Draft — pending academic review; not accredited or assigned credits  
-**Version:** 0.1  
+**Version:** 0.2 (proposed practical outcomes)  
 **Date:** 22 November 2026
 
 ## Origin and scope
@@ -30,6 +30,14 @@ The term *hacking* is retained from the source. Teaching and assessment here con
 ## Supporting document
 
 - [Proposed programme overview, safety requirements, assessment approach and open decisions](ethical-hacking-programme-overview.md)
+
+## Practical-first curriculum design (v0.2 proposal)
+
+Every module now identifies **eight hands-on, assessable learning outcomes**, a minimum observable evidence artifact for each outcome, mapped teaching sections, **four planned labs**, and an integrated practical exit task. Learning outcomes use actions such as *configure, inspect, test, diagnose, correct, retest and report* rather than relying on recall alone.
+
+The proposed teaching-time split is **70% supervised practical learning, 20% theory/demonstration, 10% review and reporting**. This is a design proposal, **not** an approved academic credit, assessment weighting or pass requirement. Readiness and written-scope checks remain **Pass/Retry prerequisites**.
+
+The lab work remains planned, not piloted or delivered; student guides, fixtures, test cases, model evidence, rubrics, safety oversight and moderation must be approved before teaching.
 
 ## Mandatory lab boundaries (proposed)
 
