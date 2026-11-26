@@ -16,6 +16,8 @@ It is a **living curriculum development repository**, not simply a collection of
 - [Cloud & DevOps](curricula/Cloud%20%26%20DevOps/README.md) — five-module Applied DevOps Engineering programme (BIH source v1.2; pending institutional approval).
 - [Ethical Hacking (COMS)](curricula/ethical-hacking/README.md) — five proposed modules (COMS101–COMS105), including **COMS102 — Linux Basics for Cybersecurity**; draft pending academic and safety review.
 
+- [Physics](curricula/physics/README.md) — PHY101 Classical Mechanics, comprising three teaching sections and 21 topics from the supplied content outline.
+
 ## What belongs here
 
 - **Curriculum design:** programme structures, module lists, prerequisites, learning pathways, and progression.
