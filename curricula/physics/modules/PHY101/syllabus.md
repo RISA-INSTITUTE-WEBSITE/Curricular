@@ -1,65 +1,70 @@
-# PHY101 — Classical Mechanics
+# PHY101 — Classical Mechanics & Properties of Matter
 
 **Institution:** RISA Institution of Applied Sciences  
-**Discipline:** Physics  
-**Module code:** PHY101  
-**Module title:** Classical Mechanics  
-**Document:** Teaching content outline  
-**Version:** 0.1  
-**Date:** 27 November 2026  
-**Status:** Source-transcribed curriculum outline — pending academic review
+**School:** School of Physical and Applied Sciences  
+**Course family:** Applied Physics  
+**Level:** 1  
+**Module status:** Compulsory module  
+**Version:** 1.0 curriculum design proposal — 27 November 2026  
+**Review status:** Consolidated working curriculum for academic review.  
+**Prerequisites / coordinated study:** Entry-level foundation
 
-## Content list (teaching order)
+## Content and classification
+
+C = compulsory core; E = elective; R = revision verified by checkpoint. Core is required for all enrolled students, including students taking an optional module. See [programme rules](../../README.md) and [pathways](../../pathways.md).
 
 ### Section A — Mechanics
 
-1. Physics and Measurement
-2. Motion in 1D
-3. Vectors
-4. Motion in 2D
-5. The Laws of Motion
-6. Circular Motion & Other Applications
-7. Energy of a System & Conservation of Energy
-8. Linear Momentum & Collisions
-9. Rotation of Rigid Bodies About a Fixed Axis
-10. Angular Momentum
-11. Static Equilibrium & Elasticity
-12. Universal Gravitation
-13. Fluid Mechanics
+| No. | Topic | Class |
+|---:|---|:---:|
+| 1 | Physics and Measurement | C |
+| 2 | Motion in 1D | C |
+| 3 | Vectors | C |
+| 4 | Motion in 2D | C |
+| 5 | The Laws of Motion | C |
+| 6 | Circular Motion & Other Applications | C |
+| 7 | Energy of a System & Conservation of Energy | C |
+| 8 | Linear Momentum & Collisions | C |
+| 9 | Rotation of Rigid Bodies About a Fixed Axis | C |
+| 10 | Angular Momentum | C |
+| 11 | Static Equilibrium & Elasticity | C |
+| 12 | Universal Gravitation | C |
+| 13 | Fluid Mechanics | C |
 
 ### Section B — Oscillations & Mechanical Waves
 
-14. Oscillatory Motion
-15. Wave Motion
-16. Sound Waves
-17. Superposition & Standing Waves
+| No. | Topic | Class |
+|---:|---|:---:|
+| 14 | Oscillatory Motion | C |
+| 15 | Wave Motion | C |
+| 16 | Sound Waves | C |
+| 17 | Superposition & Standing Waves | C |
 
 ### Section C — Thermal Physics
 
-18. Temperature
-19. First Law of Thermodynamics
-20. Kinetic Theory of Gases
-21. Heat Engines, Entropy & Second Law of Thermodynamics
+| No. | Topic | Class |
+|---:|---|:---:|
+| 18 | Temperature | C |
+| 19 | First Law of Thermodynamics | C |
+| 20 | Kinetic Theory of Gases | C |
+| 21 | Heat Engines, Entropy & Second Law of Thermodynamics | C |
 
-## Section summary
+## Summary
 
-| Section | Teaching domain | Topic numbers | Total |
-| --- | --- | --- | ---: |
-| A | Mechanics | 1–13 | 13 |
-| B | Oscillations & Mechanical Waves | 14–17 | 4 |
-| C | Thermal Physics | 18–21 | 4 |
-| **Total** | | | **21** |
+| Sections | Core | Elective catalogue | Revision | Total | Selected electives | In-depth topics |
+|---:|---:|---:|---:|---:|---:|---:|
+| 3 | 21 | 0 | 0 | 21 | 0 | 21 |
 
-## Provenance and implementation
+## Applied learning and scope
 
-Transcribed from the handwritten Classical Mechanics (101) content list supplied by the curriculum owner on 27 November 2026. Capitalization and minor spelling have been standardized, while preserving the supplied order and three topic groups. The section letters A–C are organizational labels consistent with RISA's existing curriculum structure.
+Measure motion, forces, elastic deformation, oscillations and thermal processes; use uncertainty analysis. Preserve the original 21 topics and teaching order; title updated at curriculum owner's direction.
 
-The RISA website database has been updated with the title Classical Mechanics, all 21 published topic records and these three sections. The existing Physics and Measurement topic and its attached learning material and enrolment records were retained.
 
-## Outstanding curriculum development
+## Assessment and evidence
 
-The supplied outline specifies topic names and teaching sequence only. Measurable learning outcomes, detailed lesson content, required readings, practical activities, prerequisites, notional hours, credits and formal assessment requirements still require development and review.
+Use the common assessment framework, with measurable analytical, practical and interpretation outcomes mapped to each section before delivery. Assess chosen electives at comparable depth and notional hours. Require reproducible work, sources, verification and appropriate uncertainty or error analysis. Formal credits, detailed outcomes, rubrics and teaching hours remain subject to academic review.
 
----
+## Source continuity
 
-*RISA Institution of Applied Sciences — Curriculum Development Draft*
+Original 21-topic outline transcribed on 27 November 2026; unchanged ordering. The existing website title and topic records were reported in the prior repository version as Classical Mechanics; this PR does not modify the website database. Existing learning links are preserved through the unchanged module path.
+
