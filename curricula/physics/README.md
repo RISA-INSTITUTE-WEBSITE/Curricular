@@ -57,6 +57,10 @@ See [career pathways](pathways.md), [feasibility and implementation](feasibility
 - Every pathway shares the same core learning outcomes. Revision topics require diagnostic verification and remediation, not automatic exemption. Unselected electives remain in the institutional catalogue. Safety-related content is compulsory where relevant.
 - Students may change pathways with bridging and approval; career titles are descriptive educational pathways, not claims of professional registration or accreditation. The qualification naming, credit model and optional-module credit equivalence require institutional validation.
 
+## Certification and institutional policy
+
+See the [institutional policy register](../../policies/README.md) and [Applied Physics certification schedule](../../policies/schedules/applied-physics-certification.md) for MCC, LCC and CCC requirements, confirmation status and implementation gates. These rules do not change the curriculum module register.
+
 ## Common assessment framework (design)
 
 | Component | Physics | Mathematics |

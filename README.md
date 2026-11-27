@@ -18,6 +18,10 @@ It is a **living curriculum development repository**, not simply a collection of
 
 - [Applied Physics](curricula/physics/README.md) — three-level course family with 21 independent modules and 12 career-oriented pathways; curriculum design pending academic review.
 
+## Institutional system policies
+
+See the [central policy register](policies/README.md) for assessment, certification, academic integrity, curriculum governance, electives, practical learning and academic records. Policy adoption and deployment are tracked separately from Git merges.
+
 ## What belongs here
 
 - **Curriculum design:** programme structures, module lists, prerequisites, learning pathways, and progression.
@@ -50,6 +54,7 @@ Curricular/
 │   ├── computer-science/
 │   ├── ethical-hacking/
 │   └── engineering/
+├── policies/
 ├── templates/
 └── change-log/
 ```
